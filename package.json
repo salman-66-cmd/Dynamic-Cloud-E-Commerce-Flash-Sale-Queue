@@ -1,0 +1,24 @@
+{
+  "name": "dynamic-cloud-ecommerce-flash-sale-queue",
+  "version": "1.0.0",
+  "description": "Dynamic Cloud E-Commerce Flash Sale Queue System demonstrating horizontal scalability, load balancing, Redis virtual queues, auto-scaling worker nodes, and zero overselling guarantees.",
+  "scripts": {
+    "start": "node start-all.js",
+    "dev": "node start-all.js",
+    "test:concurrency": "cd backend && npm test",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "cloud-computing",
+    "flash-sale",
+    "virtual-queue",
+    "load-balancer",
+    "redis",
+    "mongodb",
+    "auto-scaling",
+    "concurrency-control",
+    "socket-io"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT"
+}
